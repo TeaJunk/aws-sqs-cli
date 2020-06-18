@@ -1,4 +1,4 @@
-module github.com/teajunk/aws-sqs-cli
+module github.com/TeaJunk/aws-sqs-cli
 
 go 1.14
 
