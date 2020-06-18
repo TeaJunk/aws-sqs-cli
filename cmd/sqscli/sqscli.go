@@ -46,36 +46,4 @@ func main() {
 			log.Fatalln("Can't create the file specified: ", err)
 		}
 	}
-	// sOpts := session.Options{SharedConfigState: session.SharedConfigEnable}
-	// if *flagAwsProfile != "" {
-	// 	sOpts.Profile = *flagAwsProfile
-	// }
-	// sOpts.Config = aws.Config{
-	// 	Region: flagAwsRegion,
-	// }
-	// sess := session.Must(session.NewSessionWithOptions(sOpts))
-	// svc := sqs.New(sess)
-
-	// result, err := svc.ReceiveMessage(&sqs.ReceiveMessageInput{
-	// 	AttributeNames: []*string{
-	// 		aws.String(sqs.MessageSystemAttributeNameSentTimestamp),
-	// 	},
-	// 	MessageAttributeNames: []*string{
-	// 		aws.String(sqs.QueueAttributeNameAll),
-	// 	},
-	// 	QueueUrl:            flagAwsQueueURL,
-	// 	MaxNumberOfMessages: aws.Int64(1),
-	// 	WaitTimeSeconds:     aws.Int64(0),
-	// })
-	// fmt.Println(result.Messages)
-	// if err != nil {
-	// 	fmt.Println("Error", err)
-	// 	return
-	// }
-
-	// if len(result.Messages) == 0 {
-	// 	fmt.Println("Received no messages")
-	// 	return
-	// }
-
 }
