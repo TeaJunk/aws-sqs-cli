@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teajunk/aws-sqs-cli/internal/awssqs"
+	"github.com/TeaJunk/aws-sqs-cli/internal/awssqs"
 )
 
 var (
